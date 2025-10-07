@@ -26,6 +26,7 @@ www.visa.cn# Visa
 fbi.gov# FBL
 www.shopify.com# Shopify
 104.18.27.90# Deepseek
+104.18.26.90# Deepseek
 www.wto.org# Org
 www.gov.ua# Gov
 mfa.gov.ua# Gov
