@@ -27,6 +27,9 @@ freeyx.cloudflare88.eu.org# 友善
 43.165.183.43# 日本
 www.visa.co.jp# 日本
 www.visa.com.hk# Hk香港
+154.3.35.61# HK 香港
+175.29.22.13# HK 香港
+36.50.90.241# HK 香港
 icook.tw# Tw台湾
 www.visa.com.tw# Tw台湾
 www.visa.cn# Visa
