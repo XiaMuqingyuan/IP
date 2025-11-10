@@ -20,8 +20,11 @@ cf.877774.xyz# 敬业
 fyx.tencentapp.cn# 诚信
 freeyx.cloudflare88.eu.org# 友善
 
+
 172.65.90.66:2083# 日本 韩国 新加坡
+
 104.19.35.145# 美国
+43.165.183.43# 日本
 www.visa.co.jp# 日本
 www.visa.com.hk# Hk香港
 icook.tw# Tw台湾
