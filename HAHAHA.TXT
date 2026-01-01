@@ -1,9 +1,8 @@
 
-104.18.25.192# TG:@Hello_World_Frost
+104.18.35.42# TG:@Hello_World_Frost
 162.159.27.62# Join the channel for more information
-141.101.120.163# 关注频道 Look 性感荷官 在线发牌
-173.245.49.214# 免费节点 请勿被骗 🤣🤣🤣
-staticdelivery.nexusmods.com# Nobody
+104.18.24.192# 关注频道 Look 性感荷官 在线发牌
+staticdelivery.nexusmods.com# 免费节点 请勿被骗 🤣🤣🤣
 
 cf.tencentapp.cn# 举头三尺有神明
 store.ubi.com# 网络不是法外之地
@@ -21,16 +20,12 @@ cf.877774.xyz# 敬业
 fyx.tencentapp.cn# 诚信
 freeyx.cloudflare88.eu.org# 友善
 
-
 172.65.90.66:2083# 日本 韩国 新加坡
-
-104.19.35.145# 美国
-43.165.183.43# 日本
-www.visa.co.jp# 日本
-www.visa.com.hk# Hk香港
-154.3.35.61# HK 香港
-icook.tw# Tw台湾
-www.visa.com.tw# Tw台湾
+104.19.35.145:8443# US美国
+www.visa.co.jp# JP日本
+www.visa.com.hk# HK香港
+icook.tw# TW台湾
+www.visa.com.tw# TW台湾
 www.visa.cn# Visa
 fbi.gov# FBL
 www.shopify.com# Shopify
@@ -38,7 +33,5 @@ www.shopify.com# Shopify
 104.18.26.90# Deepseek
 www.wto.org# Org
 www.gov.ua# Gov
-mfa.gov.ua# Gov
+mfa.gov.ua:8443# Gov
 ip.sb# Time
-104.18.24.192# 不知道是啥
-104.18.35.42# 不知道是啥
