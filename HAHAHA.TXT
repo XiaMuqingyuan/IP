@@ -32,4 +32,3 @@ fbi.gov# FBL
 www.wto.org# Org
 www.gov.ua# Gov
 mfa.gov.ua:8443# Gov
-ip.sb# Time
