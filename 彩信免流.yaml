@@ -1,5 +1,15 @@
+# 适用：Clash Meta / Mihomo 内核
+rule-providers:
+  adblock:
+    type: http
+    behavior: domain
+    format: mrs
+    url: "https://a.frostx.de5.net/raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs"
+    path: ./ruleset/adblockmihomo.mrs
+    interval: 86400
+
 proxies:
-  - name: "🇨🇳K广州"
+  - name: "彩信 广东广州"
     type: http
     server: 14.215.182.75
     port: 443
@@ -8,7 +18,7 @@ proxies:
       Host: 153.3.236.22:443
     dialer-proxy: "WAP"
 
-  - name: "🇨🇳K江苏南京"
+  - name: "彩信 江苏南京"
     type: http
     server: 180.101.50.249
     port: 443
@@ -17,7 +27,7 @@ proxies:
       Host: 153.3.236.22:443
     dialer-proxy: "WAP"
 
-  - name: "🇨🇳K江苏苏州"
+  - name: "彩信 江苏苏州"
     type: http
     server: 180.101.50.208
     port: 443
@@ -26,7 +36,7 @@ proxies:
       Host: 153.3.236.22:443
     dialer-proxy: "WAP"
 
-  - name: "🇨🇳K北京"
+  - name: "彩信 北京"
     type: http
     server: 220.181.111.189
     port: 443
@@ -35,7 +45,7 @@ proxies:
       Host: 153.3.236.22:443
     dialer-proxy: "WAP"
 
-  - name: "🇨🇳K北京1"
+  - name: "彩信 北京2"
     type: http
     server: 220.181.7.1
     port: 443
@@ -51,16 +61,28 @@ proxies:
 
 proxy-groups:
   - name: "[全局]选节点"
-    type: "select"
+    type: select
     proxies:
       - "WAP"
       - "DIRECT"
-      - "🇨🇳K广州"
-      - "🇨🇳K江苏南京"
-      - "🇨🇳K江苏苏州"
-      - "🇨🇳K北京"
-      - "🇨🇳K北京1"
+      - "彩信 广东广州"
+      - "彩信 江苏南京"
+      - "彩信 江苏苏州"
+      - "彩信 北京"
+      - "彩信 北京2"
+
+  # 👇 去广告开关策略组
+  - name: "🛡️ 广告拦截"
+    type: select
+    proxies:
+      - "REJECT"   # 拦截广告（去广告）
+      - "DIRECT"   # 直连，不拦截（允许广告）
+      - "WAP"
 
 rules:
+  # 广告流量交给上面的开关组处理
+  - RULE-SET,adblock,🛡️ 广告拦截
+  # 你原有的拦截
   - DOMAIN-KEYWORD,ingest.sentry,REJECT
+  # 其余流量走全局选择
   - MATCH,[全局]选节点
